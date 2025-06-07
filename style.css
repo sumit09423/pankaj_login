@@ -5,3 +5,7 @@
   font-weight: 600;
   /* font-style: normal; */
 }
+
+.custom-shadow {
+  box-shadow: 2px 10px rgb(248, 235, 52);
+}
