@@ -1,410 +1,2155 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-
-<head>
+  <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-    <link rel="stylesheet"
-        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=schedule" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="./style.css">
-</head>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0&icon_names=schedule"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Exo+2:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+  </head>
 
-<body>
+  <body>
     <header>
-        <nav class="bg-gray-800">
-            <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
-                <div class="relative flex h-16 items-center justify-center">
-
-                    <div class="flex  items-center justify-center sm:items-stretch sm:justify-start">
-                        <div class="flex-1 shrink-0 items-center self-center">
-                            <!-- <img class="h-8 w-auto" src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"> -->
-                            <h2 class="text-white self-center">Company Name</h2>
-                        </div>
-                    </div>
-
-                </div>
+      <nav class="bg-gray-800">
+        <div class="mx-auto max-w-7xl px-2 sm:px-6 lg:px-8">
+          <div class="relative flex h-16 items-center justify-center">
+            <div
+              class="flex items-center justify-center sm:items-stretch sm:justify-start"
+            >
+              <div class="flex-1 shrink-0 items-center self-center">
+                <!-- <img class="h-8 w-auto" src="https://tailwindcss.com/plus-assets/img/logos/mark.svg?color=indigo&shade=500" alt="Your Company"> -->
+                <h2 class="text-white self-center">Company Name</h2>
+              </div>
             </div>
-        </nav>
+          </div>
+        </div>
+      </nav>
     </header>
-    <Main>
-        <!-- Welcome Section -->
-        <div class="border border-l-8 border-blue-800 shadow rounded-lg mt-8 mb-8 m-5">
-            <h5 class="text-3xl font-bold m-5">Welcome Section</h5>
-            <p class="text-gray-700 text-sm ml-5 mr-5 mb-8">
-                Welcome Head Line
+    <main>
+      <!-- Welcome Section -->
+      <div
+        class="border border-l-8 border-blue-800 shadow rounded-lg mt-8 mb-8 m-5"
+      >
+        <h5 class="text-3xl font-bold m-5">Welcome Section</h5>
+        <p class="text-gray-700 text-sm ml-5 mr-5 mb-8">Welcome Head Line</p>
+      </div>
+      <!-- Image Section -->
+      <section class="px-3 py-5 bg-neutral-100 lg:py-10">
+        <div
+          class="grid lg:grid-cols-2 items-center justify-items-center gap-5"
+        >
+          <div
+            class="order-2 lg:order-1 flex flex-col justify-center items-center"
+          >
+            <p class="text-4xl font-bold md:text-7xl text-orange-600">
+              25% OFF
             </p>
-
-        </div>
-        <!-- Image Section -->
-        <section class="px-3 py-5 bg-neutral-100 lg:py-10">
-            <div class="grid lg:grid-cols-2 items-center justify-items-center gap-5">
-                <div class="order-2 lg:order-1 flex flex-col justify-center items-center">
-                    <p class="text-4xl font-bold md:text-7xl text-orange-600">25% OFF</p>
-                    <p class="text-4xl font-bold md:text-7xl">Lorem ipsum dolor sit amet.</p>
-                    <p class="mt-2 text-sm md:text-lg">Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
-                    <button
-                        class="text-lg md:text-2xl bg-black text-white py-2 px-5 mt-10 hover:bg-zinc-800 rounded-lg">Show
-                        Data</button>
-                </div>
-                <div class="order-1 lg:order-2">
-                    <img class="h-80 w-80 object-cover lg:w-[500px] lg:h-[500px] rounded-lg"
-                        src="https://images.unsplash.com/photo-1615397349754-cfa2066a298e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
-                        alt="">
-                </div>
-            </div>
-        </section>
-
-        <!-- Live Update Section -->
-        <div class="border border-l-8 border-red-800 shadow rounded-lg mt-8 mb-8 m-5">
-            <h5 class="text-3xl font-bold m-5">Live update Result</h5>
-            <p class="text-gray-700 text-xl font-bold ml-5 sm:ml-10 mr-5 mb-8">
-                YOU GET FAST AND RIGHT RESULT HERE
+            <p class="text-4xl font-bold md:text-7xl">
+              Lorem ipsum dolor sit amet.
             </p>
+            <p class="mt-2 text-sm md:text-lg">
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            </p>
+            <button
+              class="text-lg md:text-2xl bg-black text-white py-2 px-5 mt-10 hover:bg-zinc-800 rounded-lg"
+            >
+              Show Data
+            </button>
+          </div>
+          <div class="order-1 lg:order-2">
+            <img
+              class="h-80 w-80 object-cover lg:w-[500px] lg:h-[500px] rounded-lg"
+              src="https://images.unsplash.com/photo-1615397349754-cfa2066a298e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+
+      <!-- Live Update Section -->
+      <div
+        class="border border-l-8 border-red-800 shadow rounded-lg mt-8 mb-8 m-5"
+      >
+        <h5 class="text-3xl font-bold m-5">Live update Result</h5>
+        <p class="text-gray-700 text-xl font-bold ml-5 sm:ml-10 mr-5 mb-8">
+          YOU GET FAST AND RIGHT RESULT HERE
+        </p>
+      </div>
+
+      <!-- Live Update  -->
+      <div class="bg-[#5b0000] p-5 flex items-center justify-center mt-2">
+        <span class="material-symbols-outlined text-white font-bold mr-3">
+          schedule
+        </span>
+        <h2 class="text-white text-xl font-bold">31/05/2025</h2>
+      </div>
+      <div class="bg-[#FFA500] p-5 flex items-center justify-center mt-3">
+        <h2 class="text-white text-xl font-bold">❋ CNN FINAL RESULT ❋</h2>
+      </div>
+
+      <!-- Result Table -->
+
+      <div class="relative overflow-x-auto">
+        <table class="w-full text-sm text-left rtl:text-right text-gray-500">
+          <thead class="text-xs text-gray-700 uppercase bg-blue-500">
+            <tr>
+              <th scope="col" class="px-6 py-3 text-2xl text-white">
+                Product name
+              </th>
+              <th scope="col" class="px-6 py-3 text-2xl text-white">Color</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr class="bg-white border-b border-gray-200">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap text-xl"
+              >
+                Apple MacBook Pro 17"
+              </th>
+              <td class="px-6 py-4 text-xl text-black">Silver</td>
+            </tr>
+            <tr class="bg-white border-b border-gray-200">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap text-xl bg-blue-100"
+              >
+                Microsoft Surface Pro
+              </th>
+              <td class="px-6 py-4 text-xl text-black bg-blue-100">White</td>
+            </tr>
+            <tr class="bg-white">
+              <th
+                scope="row"
+                class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap text-xl"
+              >
+                Magic Mouse 2
+              </th>
+              <td class="px-6 py-4 text-xl text-black">Black</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="bg-[#5b0000] p-5 flex items-center justify-center mt-2">
+        <span class="material-symbols-outlined text-white font-bold mr-3">
+          schedule
+        </span>
+        <h2 class="text-white text-xl font-bold">31/05/2025</h2>
+      </div>
+
+      <div class="border-[#a52a2a] border-[4px] rounded-xl bg-[#84aeb0] m-5">
+        <div
+          class="bg-[#00ffff] p-[10px] flex items-center justify-center mt-0 rounded-xl shadow-lg shadow-[#5b0000] border-[2px]"
+        >
+          <h4 class="italic">A TO B final Ank</h4>
         </div>
 
-        <!-- Live Update  -->
-        <div class="bg-[#5b0000] p-5 flex items-center justify-center mt-2">
-            <span class="material-symbols-outlined text-white font-bold mr-3">
-                schedule
-            </span>
-            <h2 class="text-white text-xl font-bold">31/05/2025</h2>
+        <div class="flex">
+          <div
+            class="mt-2 w-[50%] flex flex-col items-center justify-center font-bold text-white text-2xl"
+          >
+            <p class="italic">Final Ank</p>
+            <p class="italic">1-7-8-3</p>
+          </div>
+          <div
+            class="text-white mt-2 flex flex-col items-center justify-center w-[50%] text-2xl"
+          >
+            <p class="italic">moter pana</p>
+            <p class="italic">123457</p>
+          </div>
         </div>
-        <div class="bg-[#FFA500] p-5 flex items-center justify-center mt-3 ">
-            <h2 class="text-white text-xl font-bold">❋ CNN FINAL RESULT ❋</h2>
-        </div>
+      </div>
 
-        <!-- Result Table -->
-
-
-        <div class="relative overflow-x-auto">
-            <table class="w-full text-sm text-left rtl:text-right text-gray-500 ">
-                <thead class="text-xs text-gray-700 uppercase bg-blue-500  ">
-                    <tr>
-                        <th scope="col" class="px-6 py-3 text-2xl text-white">
-                            Product name
-                        </th>
-                        <th scope="col" class="px-6 py-3 text-2xl text-white">
-                            Color
-                        </th>
-
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr class="bg-white border-b   border-gray-200">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap text-xl ">
-                            Apple MacBook Pro 17"
-                        </th>
-                        <td class="px-6 py-4 text-xl text-black">
-                            Silver
-                        </td>
-
-                    </tr>
-                    <tr class="bg-white border-b   border-gray-200 ">
-                        <th scope="row"
-                            class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap text-xl bg-blue-100">
-                            Microsoft Surface Pro
-                        </th>
-                        <td class="px-6 py-4 text-xl text-black bg-blue-100">
-                            White
-                        </td>
-
-                    </tr>
-                    <tr class="bg-white ">
-                        <th scope="row" class="px-6 py-4 font-medium text-gray-900 whitespace-nowrap text-xl ">
-                            Magic Mouse 2
-                        </th>
-                        <td class="px-6 py-4 text-xl text-black">
-                            Black
-                        </td>
-
-                    </tr>
-                </tbody>
-            </table>
+      <div class="border-[#a52a2a] border-[4px] rounded-xl bg-[#84aeb0] m-5">
+        <div
+          class="bg-[#00ffff] p-[10px] flex items-center justify-center mt-0 rounded-xl shadow-lg shadow-[#5b0000] border-[2px]"
+        >
+          <h4 class="italic">A TO B final Ank</h4>
         </div>
 
-        <div class="bg-[#5b0000] p-5 flex items-center justify-center mt-2">
-            <span class="material-symbols-outlined text-white font-bold mr-3">
-                schedule
-            </span>
-            <h2 class="text-white text-xl font-bold">31/05/2025</h2>
+        <div class="flex">
+          <div
+            class="mt-2 w-[50%] flex flex-col items-center justify-center font-bold text-white text-2xl"
+          >
+            <p class="italic">Ank</p>
+            <p class="italic">1-7-8-3</p>
+          </div>
+          <div
+            class="text-white mt-2 flex flex-col items-center justify-center w-[50%] text-2xl"
+          >
+            <p class="italic">Ank</p>
+            <p class="italic">1-7-8-3</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-[#FFC118] border-[4px]">
+        <div
+          class="flex bg-[#FFC118] gap-1 items-center justify-center rounded-xl mx-3"
+        >
+          <img
+            class="w-[30px] h-[30px] mt-1"
+            src="./assets/image/svg/umbrella.svg"
+            alt=""
+            srcset=""
+          />
+          <h1 class="text-4xl italic">LIVE RESULT</h1>
+          <img
+            class="w-[30px] h-[30px] mt-1"
+            src="./assets/image/svg/umbrella.svg"
+            alt=""
+            srcset=""
+          />
         </div>
 
-        <div class="border-[#a52a2a] border-[4px]  rounded-xl bg-[#84aeb0] m-5 ">
-            <div
-                class="bg-[#00ffff] p-[10px] flex items-center justify-center mt-0 rounded-xl shadow-lg shadow-[#5b0000] border-[2px]">
-                <h4 class="italic"> A TO B final Ank</h4>
-            </div>
-
-            <div class="flex">
-                <div class="mt-2  w-[50%] flex  flex-col items-center justify-center font-bold text-white text-2xl">
-                    <p class="italic">Final Ank</p>
-                    <p class="italic"> 1-7-8-3</p>
-
-                </div>
-                <div class="  text-white mt-2 flex flex-col items-center justify-center w-[50%] text-2xl ">
-                    <p class="italic">moter pana</p>
-                    <p class="italic"> 123457</p>
-
-                </div>
-            </div>
+        <div>
+          <p class="italic tracking-[2px] text-center">
+            Sabse Tezz Live Result Yahi Milega
+          </p>
         </div>
 
-        <div class="border-[#a52a2a] border-[4px]  rounded-xl bg-[#84aeb0] m-5 ">
-            <div
-                class="bg-[#00ffff] p-[10px] flex items-center justify-center mt-0 rounded-xl shadow-lg shadow-[#5b0000] border-[2px]">
-                <h4 class="italic"> A TO B final Ank</h4>
-            </div>
+        <div class="flex flex-col items-center border-b-1">
+          <p
+            class="text-[#080808] text-shadow-[#8BC34A] text-shadow-2xs text-center italic text-2xl mt-3"
+          >
+            TIME BAZAR
+          </p>
+          <p class="italic text-center text-2xl mt-0">116-8</p>
 
-            <div class="flex">
-                <div class="mt-2  w-[50%] flex  flex-col items-center justify-center font-bold text-white text-2xl">
-                    <p class="italic"> Ank</p>
-                    <p class="italic"> 1-7-8-3</p>
+          <button
+            class="rounded-lg px-3 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 rounded-tr-[22px] rounded-bl-[20px] border-[2px] border-black mt-0"
+          >
+            Refresh
+          </button>
 
-                </div>
-                <div class="  text-white mt-2 flex flex-col items-center justify-center w-[50%] text-2xl ">
-                    <p class="italic">Ank</p>
-                    <p class="italic"> 1-7-8-3</p>
-
-                </div>
-            </div>
+          <p class="mt-2 tracking-[1px] text-[14px]">(03:00 PM)</p>
         </div>
 
-        <div class="border-[#FFC118] border-[4px] ">
+        <div class="flex flex-col items-center border-b-1">
+          <p
+            class="text-[#080808] text-shadow-[#8BC34A] text-shadow-2xs text-center italic text-2xl mt-3"
+          >
+            TIME BAZAR
+          </p>
+          <p class="italic text-center text-2xl mt-0">116-8</p>
 
-            <div class="flex bg-[#FFC118] gap-1 items-center justify-center rounded-xl mx-3  ">
-                <img class="w-[30px] h-[30px] mt-1" src="./assets/image/svg/umbrella.svg" alt="" srcset="">
-                <h1 class="text-4xl italic">LIVE RESULT</h1>
-                 <img class="w-[30px] h-[30px] mt-1" src="./assets/image/svg/umbrella.svg" alt="" srcset="">
-            </div>
+          <button
+            class="rounded-lg px-3 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 rounded-tr-[22px] rounded-bl-[20px] border-[2px] border-black mt-0"
+          >
+            Refresh
+          </button>
 
-            <div>
-                <p class="italic tracking-[2px]  text-center ">Sabse Tezz Live Result Yahi Milega</p>
-            </div>
-
-            <div class="flex flex-col items-center border-b-1  ">
-               <p class=" text-[#080808] text-shadow-[#8BC34A] text-shadow-2xs text-center italic text-2xl mt-3 "> TIME BAZAR</p>
-               <p class="italic text-center text-2xl mt-0  ">116-8</p>
-
-               <button class="rounded-lg px-3 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 rounded-tr-[22px] rounded-bl-[20px] border-[2px] border-black mt-0">Refresh</button>
-
-               <p class="mt-2 tracking-[1px] text-[14px] ">
-                (03:00 PM)
-               </p>
-            </div>
-
-            <div class="flex flex-col items-center border-b-1  ">
-                <p class=" text-[#080808] text-shadow-[#8BC34A] text-shadow-2xs text-center italic text-2xl mt-3 "> TIME BAZAR</p>
-                <p class="italic text-center text-2xl mt-0  ">116-8</p>
- 
-                <button class="rounded-lg px-3 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 rounded-tr-[22px] rounded-bl-[20px] border-[2px] border-black mt-0">Refresh</button>
- 
-                <p class="mt-2 tracking-[1px] text-[14px] ">
-                 (03:00 PM)
-                </p>
-             </div>
-
-             <div class="flex flex-col items-center border-b-1  ">
-                <p class=" text-[#080808] text-shadow-[#8BC34A] text-shadow-2xs text-center italic text-2xl mt-3 "> TIME BAZAR</p>
-                <p class="italic text-center text-2xl mt-0  ">116-8</p>
- 
-                <button class="rounded-lg px-3 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 rounded-tr-[22px] rounded-bl-[20px] border-[2px] border-black mt-0">Refresh</button>
- 
-                <p class="mt-2 tracking-[1px] text-[14px] ">
-                 (03:00 PM)
-                </p>
-             </div>
-
-             <div class="flex flex-col items-center border-b-1  ">
-                <p class=" text-[#080808] text-shadow-[#8BC34A] text-shadow-2xs text-center italic text-2xl mt-3 "> TIME BAZAR</p>
-                <p class="italic text-center text-2xl mt-0  ">116-8</p>
- 
-                <button class="rounded-lg px-3 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 rounded-tr-[22px] rounded-bl-[20px] border-[2px] border-black mt-0">Refresh</button>
- 
-                <p class="mt-2 tracking-[1px] text-[14px] ">
-                 (03:00 PM)
-                </p>
-             </div>
+          <p class="mt-2 tracking-[1px] text-[14px]">(03:00 PM)</p>
         </div>
-       
-        <div class="bg-[#005779] flex items-center justify-center">
-           <img class="w-[30px] h-[30px]" src="./assets/image/svg/righthand.svg" alt="" srcset=""> 
-           <h1 class="text-[#FFF932] text-3xl">NEW CNN BAZAR</h1>
-           <img class="w-[30px] h-[30px]" src="./assets/image/lefthand.svg" alt="" srcset=""> 
-        </div>
-         
-        <div class=" border-[5px] border-red-600 ">
 
-        <div class=" flex items-center justify-center mt-4  ">
-           <img class="w-[20px] h-[20px]" src="./assets/image/svg/rightdown.svg" alt="" srcset="">
-            <p class="text-[#0000ff] text-[20px] italic  ">ADD YOUR MARKET</p>
-            <img class="w-[20px] h-[20px]    " src="./assets/image/svg/leftdown.svg" alt="" srcset="">
+        <div class="flex flex-col items-center border-b-1">
+          <p
+            class="text-[#080808] text-shadow-[#8BC34A] text-shadow-2xs text-center italic text-2xl mt-3"
+          >
+            TIME BAZAR
+          </p>
+          <p class="italic text-center text-2xl mt-0">116-8</p>
+
+          <button
+            class="rounded-lg px-3 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 rounded-tr-[22px] rounded-bl-[20px] border-[2px] border-black mt-0"
+          >
+            Refresh
+          </button>
+
+          <p class="mt-2 tracking-[1px] text-[14px]">(03:00 PM)</p>
+        </div>
+
+        <div class="flex flex-col items-center border-b-1">
+          <p
+            class="text-[#080808] text-shadow-[#8BC34A] text-shadow-2xs text-center italic text-2xl mt-3"
+          >
+            TIME BAZAR
+          </p>
+          <p class="italic text-center text-2xl mt-0">116-8</p>
+
+          <button
+            class="rounded-lg px-3 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 rounded-tr-[22px] rounded-bl-[20px] border-[2px] border-black mt-0"
+          >
+            Refresh
+          </button>
+
+          <p class="mt-2 tracking-[1px] text-[14px]">(03:00 PM)</p>
+        </div>
+      </div>
+
+      <div class="bg-[#005779] flex items-center justify-center">
+        <img
+          class="w-[30px] h-[30px]"
+          src="./assets/image/svg/righthand.svg"
+          alt=""
+          srcset=""
+        />
+        <h1 class="text-[#FFF932] text-3xl">NEW CNN BAZAR</h1>
+        <img
+          class="w-[30px] h-[30px]"
+          src="./assets/image/lefthand.svg"
+          alt=""
+          srcset=""
+        />
+      </div>
+
+      <div class="border-[5px] border-red-600">
+        <div class="flex items-center justify-center mt-4">
+          <img
+            class="w-[20px] h-[20px]"
+            src="./assets/image/svg/rightdown.svg"
+            alt=""
+            srcset=""
+          />
+          <p class="text-[#0000ff] text-[20px] italic">ADD YOUR MARKET</p>
+          <img
+            class="w-[20px] h-[20px]"
+            src="./assets/image/svg/leftdown.svg"
+            alt=""
+            srcset=""
+          />
         </div>
 
         <div class="flex flex-col items-center">
-            <p class="text-center tracking-[6px] text-red-600 text-[20px] mt-[10px] italic">अगर आप खुद का सट्टा बाजार चलाते हैं और उसे पूरी दुनिया को दिखाना चाहते हैं</p>
-            <p class="text-center mt-[10px] tracking-[4px] text-[20px] italic text-[#0000ff]">तो आज ही अपने बाजार का रिजल्ट हमारी टॉप की वेबसाईट पर लगवाये अभी सम्पर्क करें नीचे दिगई बटन पर क्लिक करें</p>
-            <p class="italic text-center mt-[10px] text-[24px]">⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓</p>
+          <p
+            class="text-center tracking-[6px] text-red-600 text-[20px] mt-[10px] italic"
+          >
+            अगर आप खुद का सट्टा बाजार चलाते हैं और उसे पूरी दुनिया को दिखाना
+            चाहते हैं
+          </p>
+          <p
+            class="text-center mt-[10px] tracking-[4px] text-[20px] italic text-[#0000ff]"
+          >
+            तो आज ही अपने बाजार का रिजल्ट हमारी टॉप की वेबसाईट पर लगवाये अभी
+            सम्पर्क करें नीचे दिगई बटन पर क्लिक करें
+          </p>
+          <p class="italic text-center mt-[10px] text-[24px]">⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓</p>
 
-            <button class="rounded-lg px-8 py-2 bg-[#0000ff] text-blue-100 hover:bg-blue-600 duration-300 rounded-tr-[22px] rounded-bl-[20px] border-[2px] border-black mt-[10px] mb-4 text-2xl ">cnnsattamatka@gmail.com</button>
- 
+          <button
+            class="rounded-lg px-8 py-2 bg-[#0000ff] text-blue-100 hover:bg-blue-600 duration-300 rounded-tr-[22px] rounded-bl-[20px] border-[2px] border-black mt-[10px] mb-4 text-2xl"
+          >
+            cnnsattamatka@gmail.com
+          </button>
         </div>
-    </div>
-   
-    <div class="bg-[#fc9b83] flex flex-col items-center border-[4px] border-red-600 ">
+      </div>
 
+      <div
+        class="bg-[#fc9b83] flex flex-col items-center border-[4px] border-red-600"
+      >
         <p class="text-[#0000ff] mt-4">⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓</p>
         <p class="mt-2 text-2xl italic">ADD YOUR MARKET</p>
-        <p class="mt-2 text-blue-600 italic ">अगर आप को खुद का MARKET लगा ना हो तो</p>
+        <p class="mt-2 text-blue-600 italic">
+          अगर आप को खुद का MARKET लगा ना हो तो
+        </p>
         <p class="mt-2 italic text-[18px]">दिगई बटन पर क्लिक करें</p>
-        <p class=" mt-2 [24px] mb-8">⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓</p>
+        <p class="mt-2 [24px] mb-8">⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓⇓</p>
+      </div>
 
-    </div>
+      <div
+        class="mt-4 bg-[#00577b] border-red-600 border-[4px] flex flex-col items-center justify-center"
+      >
+        <p class="mt-3 text-white italic text-2xl tracking-[6px]">
+          LIVE BAZAR RESULT
+        </p>
+        <p class="mt-2 text-white italic text-2xl tracking-[6px]">
+          CNN.SATTA MATKA
+        </p>
+        <p class="mt-2 text-white italic text-2xl tracking-[2px]">
+          CNN SATTA MATKA GUESSING
+        </p>
+        <p class="mt-2 text-[#ffff00] italic text-2xl tracking-[3px]">
+          SATTA MATKA RESULT SITE
+        </p>
+        <p class="mt-2 text-white italic text-2xl tracking-[3px]">
+          !! PROFESSOR !!
+        </p>
+        <p class="mt-2 text-white italic text-2xl tracking-[3px]">
+          !! ADMIN SIR !!
+        </p>
+      </div>
 
-    <div class="mt-4 bg-[#00577b] border-red-600 border-[4px] flex flex-col items-center justify-center">
-        <p class="mt-3 text-white italic text-2xl tracking-[6px]">LIVE BAZAR RESULT</p>
-        <p class="mt-2 text-white italic text-2xl tracking-[6px]">CNN.SATTA MATKA</p>
-        <p class="mt-2 text-white italic text-2xl tracking-[2px]">CNN SATTA MATKA GUESSING</p>
-        <p class="mt-2 text-[#ffff00] italic text-2xl tracking-[3px]">SATTA MATKA RESULT SITE</p>
-        <p class="mt-2 text-white italic text-2xl tracking-[3px]">!! PROFESSOR !!</p>
-        <p class="mt-2 text-white italic text-2xl tracking-[3px]">!! ADMIN SIR !!</p>
+      <div class="bg-[#00577b] border-yellow-400 border-[4px]">
+        <h1 class="text-white text-center text-3xl italic mt-3 mb-3">
+          ❋ MATKA RESULTS LIVE ❋
+        </h1>
+      </div>
 
-    </div>
+      <div class="bg-[#007979]">
+        <h1 class="text-white text-center text-3xl italic px-3 py-3">
+          WORLD ME SBH SE FAST MATKA RESULT
+        </h1>
+      </div>
 
-    <div class="bg-[#00577b] border-yellow-400 border-[4px]">
-        <h1 class="text-white text-center text-3xl italic mt-3 mb-3  ">❋ MATKA RESULTS LIVE ❋</h1>
-    </div>
+      <div class="border-red-600 border-[3px] bg-[#ffff13] relative">
+        <button
+          class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+        >
+          jodi
+        </button>
+        <div class="flex items-center flex-col">
+          <p
+            class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic"
+          >
+            MAIN MUMDAY DAY
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl">
+            159-58-378
+          </p>
+          <button
+            class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+          >
+            panel
+          </button>
 
-    <div class="bg-[#007979] ">
-        <h1 class="text-white text-center text-3xl italic px-3 py-3  "> WORLD ME SBH SE FAST MATKA RESULT </h1>
-    </div>
+          <p class="">(01:00 PM TO 03:00 PM)</p>
+        </div>
+      </div>
 
-    <div class="border-red-600 border-[3px] bg-[#ffff13] relative">
-        
-        <button class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">jodi</button>
-        <div class="flex items-center flex-col ">
-        <p class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic">MAIN MUMDAY DAY</p>
-        <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl ">159-58-378</p>
-        <button class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">panel</button>
+      <div class="border-red-600 border-[3px] relative">
+        <button
+          class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+        >
+          jodi
+        </button>
+        <div class="flex items-center flex-col">
+          <p
+            class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic"
+          >
+            GOA VARLI DAY
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl">
+            119-19-270
+          </p>
+          <button
+            class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+          >
+            panel
+          </button>
+          <p class="">(01:00 PM TO 02:00 PM)</p>
+        </div>
+      </div>
 
+      <div class="border-red-600 border-[3px] relative">
+        <button
+          class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+        >
+          jodi
+        </button>
+        <div class="flex items-center flex-col">
+          <p
+            class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic"
+          >
+            TIME BAZAR
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl">
+            119-19-270
+          </p>
+          <button
+            class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+          >
+            panel
+          </button>
+          <p class="">(01:00 PM TO 02:00 PM)</p>
+        </div>
+      </div>
+
+      <div class="border-red-600 border-[3px] bg-[#edcaa1] relative">
+        <button
+          class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+        >
+          jodi
+        </button>
+        <div class="flex items-center flex-col">
+          <p
+            class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic"
+          >
+            RADHE DAY
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl">
+            119-19-270
+          </p>
+          <button
+            class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+          >
+            panel
+          </button>
+          <p class="">(01:00 PM TO 02:00 PM)</p>
+        </div>
+      </div>
+
+      <div class="border-red-600 border-[3px] relative">
+        <button
+          class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+        >
+          jodi
+        </button>
+        <div class="flex items-center flex-col">
+          <p
+            class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic"
+          >
+            BORIVALI DAY
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl">
+            119-19-270
+          </p>
+          <button
+            class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+          >
+            panel
+          </button>
+          <p class="">(01:00 PM TO 02:00 PM)</p>
+        </div>
+      </div>
+
+      <div class="border-red-600 border-[3px] bg-[#ffff00] relative">
+        <button
+          class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+        >
+          jodi
+        </button>
+        <div class="flex items-center flex-col">
+          <p
+            class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic"
+          >
+            NEW JANTA DAY
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl">
+            119-19-270
+          </p>
+          <button
+            class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+          >
+            panel
+          </button>
+          <p class="">(01:00 PM TO 02:00 PM)</p>
+        </div>
+      </div>
+
+      <div class="border-red-600 border-[3px] relative">
+        <button
+          class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+        >
+          jodi
+        </button>
+        <div class="flex items-center flex-col">
+          <p
+            class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic"
+          >
+            MILAN DAY
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl">
+            119-19-270
+          </p>
+          <button
+            class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+          >
+            panel
+          </button>
+          <p class="">(01:00 PM TO 02:00 PM)</p>
+        </div>
+      </div>
+
+      <div class="border-red-600 border-[3px] bg-[#ffff00] relative">
+        <button
+          class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+        >
+          jodi
+        </button>
+        <div class="flex items-center flex-col">
+          <p
+            class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic"
+          >
+            KALYAN
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl">
+            119-19-270
+          </p>
+          <button
+            class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+          >
+            panel
+          </button>
+          <p class="">(01:00 PM TO 02:00 PM)</p>
+        </div>
+      </div>
+
+      <div class="border-red-600 border-[3px] relative">
+        <button
+          class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+        >
+          jodi
+        </button>
+        <div class="flex items-center flex-col">
+          <p
+            class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic"
+          >
+            MILAN NIGHT
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl">
+            119-19-270
+          </p>
+          <button
+            class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+          >
+            panel
+          </button>
+          <p class="">(01:00 PM TO 02:00 PM)</p>
+        </div>
+      </div>
+
+      <div class="border-red-600 border-[3px] relative">
+        <button
+          class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+        >
+          jodi
+        </button>
+        <div class="flex items-center flex-col">
+          <p
+            class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic"
+          >
+            GOA VARLI DAY
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl">
+            119-19-270
+          </p>
+          <button
+            class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+          >
+            panel
+          </button>
+          <p class="">(01:00 PM TO 02:00 PM)</p>
+        </div>
+      </div>
+
+      <div class="border-red-600 border-[3px] bg-[#edcaa1] relative">
+        <button
+          class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+        >
+          jodi
+        </button>
+        <div class="flex items-center flex-col">
+          <p
+            class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic"
+          >
+            RADHE NIGHT
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl">
+            119-19-270
+          </p>
+          <button
+            class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+          >
+            panel
+          </button>
+          <p class="">(01:00 PM TO 02:00 PM)</p>
+        </div>
+      </div>
+
+      <div class="border-red-600 border-[3px] bg-[#ffff00] relative">
+        <button
+          class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+        >
+          jodi
+        </button>
+        <div class="flex items-center flex-col">
+          <p
+            class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic"
+          >
+            NEW JANTA NIGHT
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl">
+            119-19-270
+          </p>
+          <button
+            class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+          >
+            panel
+          </button>
+          <p class="">(01:00 PM TO 02:00 PM)</p>
+        </div>
+      </div>
+
+      <div class="border-red-600 border-[3px] relative">
+        <button
+          class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+        >
+          jodi
+        </button>
+        <div class="flex items-center flex-col">
+          <p
+            class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic"
+          >
+            BORIVALI NIGHT
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl">
+            119-19-270
+          </p>
+          <button
+            class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+          >
+            panel
+          </button>
+          <p class="">(01:00 PM TO 02:00 PM)</p>
+        </div>
+      </div>
+
+      <div class="border-red-600 border-[3px] bg-[#ffff00] relative">
+        <button
+          class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+        >
+          jodi
+        </button>
+        <div class="flex items-center flex-col">
+          <p
+            class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic"
+          >
+            MAIN BAZAR
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl">
+            119-19-270
+          </p>
+          <button
+            class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0"
+          >
+            panel
+          </button>
+          <p class="">(01:00 PM TO 02:00 PM)</p>
+        </div>
+      </div>
+
+      <div class="bg-[#edcaa1] border-red-600 border-[3px]">
+        <div class="flex items-center flex-col">
+          <p class="italic">Email for any inquiries Or Support</p>
+
+          <div>
+            <button
+              class="rounded-lg px-4 py-0 bg-[#f2d705] hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 italic"
+            >
+              Help
+            </button>
+
+            <button
+              class="rounded-lg px-4 py-0 bg-[#f2d705] hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 mb-3 italic"
+            >
+              Market Add
+            </button>
+          </div>
+        </div>
+      </div>
+
+      <!-- <div class="mt-2 mb-2 bg-[#7fb8b8] flex flex-wrap">
+        <p class="text-2xl px-3 py-3 text-center text-wrap"> CNN NEXT PANA     04:00PM     220,668,357,179,268,156,789,233,488,249,155,288</p>
+     </div> -->
+
+      <div class="mt-2 mb-2 bg-[#7fb8b8] items-center justify-center px-4">
+        <p class="text-[20px] py-3 text-balance break-words max-w-full">
+          CNN NEXT PANA 04:00PM 220,668,357,179,268,156,789,233,488,249,155,288
+        </p>
+      </div>
+
+      <div class="border-[3px] border-[#b51717]">
+        <div
+          class="border-b-2 border-[#b51717] items-center justify-center flex flex-col italic"
+        >
+          <p
+            class="text-[#b51717] text-shadow-2xs text-shadow-[#8BC34A] text-2xl"
+          >
+            CNN BAZAR
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-2xl mt-1">
+            890-7
+          </p>
+          <p class="text-[#b51717] mt-1">(09:00 AM)</p>
+        </div>
+
+        <div
+          class="border-b-2 border-[#b51717] items-center justify-center flex flex-col italic"
+        >
+          <p
+            class="text-[#b51717] text-shadow-2xs text-shadow-[#8BC34A] text-2xl"
+          >
+            CNN BAZAR
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-2xl mt-1">
+            890-7
+          </p>
+          <p class="text-[#b51717] mt-1">(09:00 AM)</p>
+        </div>
+
+        <div
+          class="border-b-2 border-[#b51717] items-center justify-center flex flex-col italic"
+        >
+          <p
+            class="text-[#b51717] text-shadow-2xs text-shadow-[#8BC34A] text-2xl"
+          >
+            CNN BAZAR
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-2xl mt-1">
+            890-7
+          </p>
+          <p class="text-[#b51717] mt-1">(09:00 AM)</p>
+        </div>
+
+        <div
+          class="border-b-2 border-[#b51717] items-center justify-center flex flex-col italic"
+        >
+          <p
+            class="text-[#b51717] text-shadow-2xs text-shadow-[#8BC34A] text-2xl"
+          >
+            CNN BAZAR
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-2xl mt-1">
+            890-7
+          </p>
+          <p class="text-[#b51717] mt-1">(09:00 AM)</p>
+        </div>
+
+        <div
+          class="border-b-2 border-[#b51717] items-center justify-center flex flex-col italic"
+        >
+          <p
+            class="text-[#b51717] text-shadow-2xs text-shadow-[#8BC34A] text-2xl"
+          >
+            CNN BAZAR
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-2xl mt-1">
+            890-7
+          </p>
+          <p class="text-[#b51717] mt-1">(09:00 AM)</p>
+        </div>
+
+        <div
+          class="border-b-2 border-[#b51717] items-center justify-center flex flex-col italic"
+        >
+          <p
+            class="text-[#b51717] text-shadow-2xs text-shadow-[#8BC34A] text-2xl"
+          >
+            CNN BAZAR
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-2xl mt-1">
+            890-7
+          </p>
+          <p class="text-[#b51717] mt-1">(09:00 AM)</p>
+        </div>
+
+        <div
+          class="border-b-2 border-[#b51717] items-center justify-center flex flex-col italic"
+        >
+          <p
+            class="text-[#b51717] text-shadow-2xs text-shadow-[#8BC34A] text-2xl"
+          >
+            CNN BAZAR
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-2xl mt-1">
+            890-7
+          </p>
+          <p class="text-[#b51717] mt-1">(09:00 AM)</p>
+        </div>
+
+        <div
+          class="border-b-2 border-[#b51717] items-center justify-center flex flex-col italic"
+        >
+          <p
+            class="text-[#b51717] text-shadow-2xs text-shadow-[#8BC34A] text-2xl"
+          >
+            CNN BAZAR
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-2xl mt-1">
+            890-7
+          </p>
+          <p class="text-[#b51717] mt-1">(09:00 AM)</p>
+        </div>
+
+        <div
+          class="border-b-2 border-[#b51717] items-center justify-center flex flex-col italic"
+        >
+          <p
+            class="text-[#b51717] text-shadow-2xs text-shadow-[#8BC34A] text-2xl"
+          >
+            CNN BAZAR
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-2xl mt-1">
+            890-7
+          </p>
+          <p class="text-[#b51717] mt-1">(09:00 AM)</p>
+        </div>
+
+        <div
+          class="border-b-2 border-[#b51717] items-center justify-center flex flex-col italic"
+        >
+          <p
+            class="text-[#b51717] text-shadow-2xs text-shadow-[#8BC34A] text-2xl"
+          >
+            CNN BAZAR
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-2xl mt-1">
+            890-7
+          </p>
+          <p class="text-[#b51717] mt-1">(09:00 AM)</p>
+        </div>
+
+        <div
+          class="border-b-2 border-[#b51717] items-center justify-center flex flex-col italic"
+        >
+          <p
+            class="text-[#b51717] text-shadow-2xs text-shadow-[#8BC34A] text-2xl"
+          >
+            CNN BAZAR
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-2xl mt-1">
+            890-7
+          </p>
+          <p class="text-[#b51717] mt-1">(09:00 AM)</p>
+        </div>
+
+        <div
+          class="border-b-2 border-[#b51717] items-center justify-center flex flex-col italic"
+        >
+          <p
+            class="text-[#b51717] text-shadow-2xs text-shadow-[#8BC34A] text-2xl"
+          >
+            CNN BAZAR
+          </p>
+          <p class="text-shadow-2xs text-shadow-[#8BC34A] text-2xl mt-1">
+            890-7
+          </p>
+          <p class="text-[#b51717] mt-1">(09:00 AM)</p>
+        </div>
+      </div>
+
+      <div class="bg-[#f1e1e1]">
+        <h1 class="py-5 text-center">
+          <button
+            class="italic px-8 py-3 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 rounded-tr-[22px] rounded-bl-[20px] border-[2px] border-black mt-0"
+          >
+            Refresh
+          </button>
+        </h1>
+      </div>
+
+      <div class="bg-[#007979]">
+        <p
+          class="text-white px-5 py-5 text-2xl text-center tracking-[10px] italic"
+        >
+          CNN SATKAMATKA.COM
+        </p>
+      </div>
+
+      <div class="bg-[#005779] flex items-center justify-center">
+        <img
+          class="w-[30px] h-[30px]"
+          src="./assets/image/svg/righthand.svg"
+          alt=""
+          srcset=""
+        />
+        <h1 class="text-[#FFF932] text-4xl italic">NEW CNN BAZAR</h1>
+        <img
+          class="w-[30px] h-[30px]"
+          src="./assets/image/lefthand.svg"
+          alt=""
+          srcset=""
+        />
+      </div>
+
+      <div class="border-[2px] table-auto border-collapse">
+        <div class="grid grid-cols-1 sm:grid-cols-2 gap-4 p-4 bg-gray-100">
+          <!-- Card 1 -->
+          <div class="bg-white border-2 border-black p-4 rounded">
+            <div class="text-[#004444] text-center text-2xl mb-2">09:00 AM</div>
+            <div
+              class="bg-[#004444] text-white text-center text-2xl p-2 rounded"
+            >
+              890/7
+            </div>
+          </div>
+
+          <!-- Card 2 -->
+          <div class="bg-white border-2 border-black p-4 rounded">
+            <div class="text-[#004444] text-center text-2xl mb-2">10:00 AM</div>
+            <div
+              class="bg-[#004444] text-white text-center text-2xl p-2 rounded"
+            >
+              136/0
+            </div>
+          </div>
+
+          <!-- Card 3 -->
+          <div class="bg-white border-2 border-black p-4 rounded">
+            <div class="text-[#004444] text-center text-2xl mb-2">11:00 AM</div>
+            <div
+              class="bg-[#004444] text-white text-center text-2xl p-2 rounded"
+            >
+              300/3
+            </div>
+          </div>
+
+          <!-- Card 4 -->
+          <div class="bg-white border-2 border-black p-4 rounded">
+            <div class="text-[#004444] text-center text-2xl mb-2">12:00 PM</div>
+            <div
+              class="bg-[#004444] text-white text-center text-2xl p-2 rounded"
+            >
+              469/9
+            </div>
+          </div>
+
+          <!-- Card 5 -->
+          <div class="bg-white border-2 border-black p-4 rounded">
+            <div class="text-[#004444] text-center text-2xl mb-2">01:00 PM</div>
+            <div
+              class="bg-[#004444] text-white text-center text-2xl p-2 rounded"
+            >
+              460/0
+            </div>
+          </div>
+
+          <!-- Card 6 -->
+          <div class="bg-white border-2 border-black p-4 rounded">
+            <div class="text-[#004444] text-center text-2xl mb-2">02:00 PM</div>
+            <div
+              class="bg-[#004444] text-white text-center text-2xl p-2 rounded"
+            >
+              599/3
+            </div>
+          </div>
+
+          <!-- Card 7 -->
+          <div class="bg-white border-2 border-black p-4 rounded">
+            <div class="text-[#004444] text-center text-2xl mb-2">03:00 PM</div>
+            <div
+              class="bg-[#004444] text-white text-center text-2xl p-2 rounded"
+            >
+              378/8
+            </div>
+          </div>
+
+          <!-- Card 8 -->
+          <div class="bg-white border-2 border-black p-4 rounded">
+            <div class="text-[#004444] text-center text-2xl mb-2">04:00 PM</div>
+            <div
+              class="bg-[#004444] text-white text-center text-2xl p-2 rounded"
+            >
+              245/1
+            </div>
+          </div>
+
+          <!-- Card 9 -->
+          <div class="bg-white border-2 border-black p-4 rounded">
+            <div class="text-[#004444] text-center text-2xl mb-2">05:00 PM</div>
+            <div
+              class="bg-[#004444] text-white text-center text-2xl p-2 rounded"
+            >
+              249/5
+            </div>
+          </div>
+
+          <!-- Card 10 -->
+          <div class="bg-white border-2 border-black p-4 rounded">
+            <div class="text-[#004444] text-center text-2xl mb-2">06:00 PM</div>
+            <div
+              class="bg-[#004444] text-white text-center text-2xl p-2 rounded"
+            >
+              356/4
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="mt-3 mb-2 ml-3 mr-3">
+        <p
+          class="text-[#23527c] border-[#f37338] border-[6px] text-center text-2xl px-4 py-4 italic text-bold"
+        >
+          CNN PENAL CHART
+        </p>
+      </div>
+
+      <div class="bg-blue-500 custom-shadow mb-3 rounded-bl-2xl rounded-tr-3xl">
+        <p
+          class="text-center text-yellow-100 text-3xl px-4 py-4 tracking-[5px] italic"
+        >
+          Guessing Number
+        </p>
+      </div>
+
+      <div
+        class="bg-[#fc9b83] text-center rounded-xl border-2 border-[#fc9b83]"
+      >
+        <p class="text-[#00ffff] text-2xl text-bold mb-2 italic">
+          ✔DATE:↬ : 04-06-2025 ↫
+        </p>
+        <p class="italic">FREE GUESSING</p>
+        <p class="mt-2 mb-2 italic text-bold text-2xl">
+          DAILY OPEN TO CLOSE FIX ANK
+        </p>
+      </div>
+
+      <div>
+        <div class="grid grid-cols-1 sm:grid-cols-2 bg-gray-100">
+          <!-- Card 1 -->
+          <div class="bg-[#243d8a] border-2 border-red-600 p-2">
+            <p
+              class="text-black text-center text-2xl mb-4 bg-blue-100 rounded-xl italic"
+            >
+              NEW JANTA DAY
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              *-*-*-*-*-*
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              ***-***-***-***-***-***
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              **-**-**-**-**-**-**-**-**-**
+            </p>
+          </div>
+
+          <!-- close -->
+          <!-- Card 1 -->
+          <div class="bg-[#243d8a] border-2 border-red-600 p-2">
+            <p
+              class="text-black text-center text-2xl mb-4 bg-blue-100 rounded-xl italic"
+            >
+              MILAN DAY
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              *-*-*-*-*-*
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              ***-***-***-***-***-***
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              **-**-**-**-**-**-**-**-**-**
+            </p>
+          </div>
+
+          <!-- close -->
+
+          <!-- Card 1 -->
+          <div class="bg-[#243d8a] border-2 border-red-600 p-2">
+            <p
+              class="text-black text-center text-2xl mb-4 bg-blue-100 rounded-xl italic"
+            >
+              MAIN MUMBAY DAY
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              *-*-*-*-*-*
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              ***-***-***-***-***-***
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              **-**-**-**-**-**-**-**-**-**
+            </p>
+          </div>
+
+          <!-- close -->
+          <!-- Card 1 -->
+          <div class="bg-[#243d8a] border-2 border-red-600 p-2">
+            <p
+              class="text-black text-center text-2xl mb-4 bg-blue-100 rounded-xl italic"
+            >
+              KALYAN
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              *-*-*-*-*-*
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              ***-***-***-***-***-***
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              **-**-**-**-**-**-**-**-**-**
+            </p>
+          </div>
+
+          <!-- close -->
+          <!-- Card 1 -->
+          <div class="bg-[#243d8a] border-2 border-red-600 p-2">
+            <p
+              class="text-black text-center text-2xl mb-4 bg-blue-100 rounded-xl italic"
+            >
+              GOA VARLI DAY
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              *-*-*-*-*-*
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              ***-***-***-***-***-***
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              **-**-**-**-**-**-**-**-**-**
+            </p>
+          </div>
+
+          <!-- close -->
+          <!-- Card 1 -->
+          <div class="bg-[#243d8a] border-2 border-red-600 p-2">
+            <p
+              class="text-black text-center text-2xl mb-4 bg-blue-100 rounded-xl italic"
+            >
+              TIME BAZAR
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              *-*-*-*-*-*
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              ***-***-***-***-***-***
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              **-**-**-**-**-**-**-**-**-**
+            </p>
+          </div>
+
+          <!-- close -->
+          <!-- Card 1 -->
+          <div class="bg-[#243d8a] border-2 border-red-600 p-2">
+            <p
+              class="text-black text-center text-2xl mb-4 bg-blue-100 rounded-xl italic"
+            >
+              BORIVALI DAY
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              *-*-*-*-*-*
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              ***-***-***-***-***-***
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              **-**-**-**-**-**-**-**-**-**
+            </p>
+          </div>
+
+          <!-- close -->
+
+          <!-- Card 1 -->
+          <div class="bg-[#243d8a] border-2 border-red-600 p-2">
+            <p
+              class="text-black text-center text-2xl mb-4 bg-blue-100 rounded-xl italic"
+            >
+              RADHE DAY
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              *-*-*-*-*-*
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              ***-***-***-***-***-***
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              **-**-**-**-**-**-**-**-**-**
+            </p>
+          </div>
+
+          <!-- close -->
+
+          <!-- Card 1 -->
+          <div class="bg-[#243d8a] border-2 border-red-600 p-2">
+            <p
+              class="text-black text-center text-2xl mb-4 bg-blue-100 rounded-xl italic"
+            >
+              NEW JANTA NIGHT
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              *-*-*-*-*-*
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              ***-***-***-***-***-***
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              **-**-**-**-**-**-**-**-**-**
+            </p>
+          </div>
+
+          <!-- close -->
+          <!-- Card 1 -->
+          <div class="bg-[#243d8a] border-2 border-red-600 p-2">
+            <p
+              class="text-black text-center text-2xl mb-4 bg-blue-100 rounded-xl italic"
+            >
+              MILAN NIGHT
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              *-*-*-*-*-*
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              ***-***-***-***-***-***
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              **-**-**-**-**-**-**-**-**-**
+            </p>
+          </div>
+
+          <!-- close -->
+          <!-- Card 1 -->
+          <div class="bg-[#243d8a] border-2 border-red-600 p-2">
+            <p
+              class="text-black text-center text-2xl mb-4 bg-blue-100 rounded-xl italic"
+            >
+              GOA VARLI NIGHT
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              *-*-*-*-*-*
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              ***-***-***-***-***-***
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              **-**-**-**-**-**-**-**-**-**
+            </p>
+          </div>
+
+          <!-- close -->
+          <!-- Card 1 -->
+          <div class="bg-[#243d8a] border-2 border-red-600 p-2">
+            <p
+              class="text-black text-center text-2xl mb-4 bg-blue-100 rounded-xl italic"
+            >
+              BORIVALI NIGHT
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              *-*-*-*-*-*
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              ***-***-***-***-***-***
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              **-**-**-**-**-**-**-**-**-**
+            </p>
+          </div>
+
+          <!-- close -->
+          <!-- Card 1 -->
+          <div class="bg-[#243d8a] border-2 border-red-600 p-2">
+            <p
+              class="text-black text-center text-2xl mb-4 bg-blue-100 rounded-xl italic"
+            >
+              MAIN BAZAR
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              *-*-*-*-*-*
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              ***-***-***-***-***-***
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              **-**-**-**-**-**-**-**-**-**
+            </p>
+          </div>
+
+          <!-- close -->
+          <!-- Card 1 -->
+          <div class="bg-[#243d8a] border-2 border-red-600 p-2">
+            <p
+              class="text-black text-center text-2xl mb-4 bg-blue-100 rounded-xl italic"
+            >
+              RADHE NIGHT
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              *-*-*-*-*-*
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              ***-***-***-***-***-***
+            </p>
+            <p
+              class="text-[#ffff00] text-center text-sm p-2 rounded tracking-[2px] italic"
+            >
+              **-**-**-**-**-**-**-**-**-**
+            </p>
+          </div>
+
+          <!-- close -->
+        </div>
+      </div>
+
+      <div
+        class="bg-blue-500 custom-shadow mb-3 rounded-bl-2xl rounded-tr-3xl mt-3 mb-5"
+      >
+        <p class="text-center text-yellow-100 text-[20px] py-1 italic">
+          ❋ ALL SATTA MATKA PENAL CHART ❋
+        </p>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          MILAN DAY PENAL CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          KALYAN PENAL CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          TIME BAZAR PENAL CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[] italic">
+          MAIN MUMDAI DAY PENAL CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          BORIVALI DAY PENAL CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          RADHE DAY PENAL CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          MAIN BAZAR PENAL CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          BORIVALI NIGHT PENAL CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          GOA VARLI DAY PENAL CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          GOA VARLI NIGHT PENAL CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          MILAN NIGHT PENAL CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          RADHE NIGHT PENAL CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          NEW JANTA DAY PENAL CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          NEW JANTA NIGHT PENAL CHART
+        </h1>
+      </div>
+
+      <div
+        class="bg-blue-500 custom-shadow mb-3 rounded-bl-2xl rounded-tr-3xl mt-2 mb-5"
+      >
+        <p class="text-center text-yellow-100 text-[25px] py-4 italic">
+          ❋ Chart Zone ❋
+        </p>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          MILAN DAY CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          KALYAN CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          TIME BAZAR CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          MAIN MUMBAI DAY CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          BORIVALI DAY CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          RADHE DAY CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          MAIN BAZAR CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          BORIVALI NIGHT CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          GOA VARLI DAY CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          GOA VARLI NIGHT CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          MILAN NIGHT CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          RADHE NIGHT CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          NEW JANTA DAY CHART
+        </h1>
+      </div>
+
+      <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          NEW JANTA NIGHT CHART
+        </h1>
+      </div>
+
+      <div
+        class="border-[#a52a2a] border-[4px] rounded-xl bg-[#84aeb0] mt-5 mr-5 ml-5 mb-1"
+      >
+        <div
+          class="bg-[#005959] p-[10px] flex items-center justify-center mt-0 rounded-xl shadow-lg shadow-[#5b0000] border-[2px]"
+        >
+          <h4 class="italic text-[#00ffff] text-[18px]">Star Line final Ank</h4>
+        </div>
+
+        <div class="flex p-2">
+          <div
+            class="w-[50%] flex flex-col items-center justify-center font-bold text-white text-2xl border-r-4"
+          >
+            <p class="italic">Final Ank</p>
+            <p class="italic">5-1-9-0</p>
+          </div>
+          <div
+            class="text-white mt-2 flex flex-col items-center justify-center w-[50%] text-2xl"
+          >
+            <p class="italic">moter pana</p>
+            <p class="italic">123457</p>
+          </div>
+        </div>
+      </div>
+
+      <div
+        class="border-[#a52a2a] border-[4px] rounded-xl bg-[#84aeb0] mt-0 mr-5 ml-5 mb-2"
+      >
+        <div
+          class="bg-[#005959] p-[10px] flex items-center justify-center mt-0 rounded-xl shadow-lg shadow-[#5b0000] border-[2px]"
+        >
+          <h4 class="italic text-[#00ffff] text-[18px]">Star Line final Ank</h4>
+        </div>
+
+        <div class="flex p-2">
+          <div
+            class="w-[50%] flex flex-col items-center justify-center font-bold text-white text-2xl border-r-4"
+          >
+            <p class="italic">Final Ank</p>
+            <p class="italic">5-1-9-0</p>
+          </div>
+          <div
+            class="text-white mt-2 flex flex-col items-center justify-center w-[50%] text-2xl"
+          >
+            <p class="italic">moter pana</p>
+            <p class="italic">123457</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="border-[2px] bg-[#711d00] border-black flex items-center justify-center mt-2 px-2 py-2">
+        <p class="text-2xl text-white">❋ MUMBAI STAR LINE ❋</p>
+        <button
+          class="italic ml-2 px-2 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 rounded-2xl border-[2px] border-black "
+        >
+          CHART
+        </button>
+      </div>
+
+
+
+  <div class="overflow-x-auto">
+    <table class="min-w-full bg-white rounded-lg shadow-md border-8 ">
+      <thead class="bg-red-600 text-white border-2 border-black">
+        <tr>
+          <th class="py-3 px-4 border-2 border-black ">TIME</th>
+          <th class="py-3 px-4 border-2 border-black">RESULT</th>
+          <th class="py-3 px-4 border-2 border-black">TIME</th>
+          <th class="py-3 px-4 border-2 border-black">RESULT</th>
+        </tr>
+      </thead>
+      <tbody class="text-gray-700">
+        <tr class="hover:bg-gray-100">
+          <td class=" text-center border-2 border-black ">10:30 AM</td>
+          <td class="text-center border-2 border-black ">***-*</td>
+          <td class=" text-center border-2 border-black ">04:30 PM</td>
+          <td class="text-center border-2 border-black">***-*</td>
+        </tr>
+        <tr class="hover:bg-gray-100">
+          <td class="text-center border-2 border-black">11:30 AM</td>
+          <td class="text-center border-2 border-black ">***-*</td>
+          <td class="text-center border-2 border-black ">05:30 PM</td>
+          <td class=" text-center border-2 border-black">***-*</td>
+        </tr>
+        <tr class="hover:bg-gray-100">
+          <td class="text-center border-2 border-black">12:30 PM</td>
+          <td class="text-center border-2 border-black">***-*</td>
+          <td class="text-center border-2 border-black">06:30 PM</td>
+          <td class="text-center border-2 border-black">***-*</td>
+        </tr>
+
+        <tr class="hover:bg-gray-100">
+            <td class="text-center border-2 border-black">01:30 PM</td>
+            <td class="text-center border-2 border-black">***-*</td>
+            <td class="text-center border-2 border-black">07:30 PM</td>
+            <td class="text-center border-2 border-black">***-*</td>
+          </tr>
+
+          <tr class="hover:bg-gray-100">
+            <td class="text-center border-2 border-black">02:30 PM</td>
+            <td class="text-center border-2 border-black">***-*</td>
+            <td class="text-center border-2 border-black">08:30 PM</td>
+            <td class="text-center border-2 border-black">***-*</td>
+          </tr>
+
+          <tr class="hover:bg-gray-100">
+            <td class="text-center border-2 border-black">03:30 PM</td>
+            <td class="text-center border-2 border-black">***-*</td>
+            <td class="text-center border-2 border-black">09:30 PM</td>
+            <td class="text-center border-2 border-black">***-*</td>
+          </tr>
+      </tbody>
+    </table>
+  </div>
+
+      </div>
+      <div class="flex items-center justify-center bg-[#005779] p-3 mt-1">
+        <img  class="w-[30px] h-[30px]" src="./assets/image/svg/righthand.svg " alt="" srcset="">
+        <p class="text-3xl italic text-[#FFF932] tracking-[2px]">MUMBAI STAR LINE</p>
+        <img class=" w-[30px] h-[30px]" src="./assets/image/lefthand.svg" alt="">
+      </div>
+
+      <div class="flex items-center justify-center bg-red-600 p-3 mt-1"> 
+        <img  class="w-[30px] h-[30px]" src="./assets/image/svg/righthand.svg " alt="" srcset="">
+        <p class="text-3xl italic text-[#FFF932] tracking-[2px]">MUMBAI STAR LINE</p>
+        <img class=" w-[30px] h-[30px]" src="./assets/image/lefthand.svg" alt="">
+      </div>
+         
+      <div class="flex items-center justify-center bg-[#1b0a54] p-3 mt-1">
+        <img  class="w-[30px] h-[30px]" src="./assets/image/svg/righthand.svg " alt="" srcset="">
+        <p class="text-3xl italic text-[#FFF932] tracking-[2px]">01:30</p>
+        <img class=" w-[30px] h-[30px]" src="./assets/image/lefthand.svg" alt="">
+      </div>
+
+      <div>
+        <h1 class="text-center py-3 bg-[#7a4700]">
+        <button
+        class=" italic px-8 py-3 bg-white hover:bg-blue-600 duration-300 border-black rounded-bl-3xl rounded-tr-3xl"
+      >
+        Refresh
+      </button>
+    </h1>
+      </div>
      
-        <p class="">(01:00 PM TO 03:00 PM)</p>
-       </div>
+      <div
+      class="bg-blue-500 custom-shadow mb-3 rounded-bl-2xl rounded-tr-3xl mt-3 mb-5"
+    >
+      <p class="text-center text-yellow-100 text-[18px] py-4 italic">
+        ❋ STAR LINE PENAL CHART ❋
+      </p>
     </div>
 
-    <div class="border-red-600 border-[3px]  relative">
-        
-        <button class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">jodi</button>
-        <div class="flex items-center flex-col ">
-        <p class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic">GOA VARLI DAY</p>
-        <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl ">119-19-270</p>
-        <button class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">panel</button>
-        <p class="">(01:00 PM TO 02:00 PM)</p>
-        
-       </div>
-    </div>
+    <div class="border-[3px] bg-[#EBEBEB] mt-[8px] mb-[1px]">
+        <h1 class="text-center text-[20px] p-[11px] tracking-[1px] italic">
+          MUMBAI STAR LINE PENAL CHART
+        </h1>
+      </div>
 
-    <div class="border-red-600 border-[3px]  relative">
-        
-        <button class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">jodi</button>
-        <div class="flex items-center flex-col ">
-        <p class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic">TIME BAZAR</p>
-        <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl ">119-19-270</p>
-        <button class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">panel</button>
-        <p class="">(01:00 PM TO 02:00 PM)</p>
-        
-       </div>
-    </div>
+<div>
+      <div class="bg-[#edcaa1] border-red-600 border-[3px]">
 
-    <div class="border-red-600 border-[3px] bg-[#edcaa1] relative">
-        
-        <button class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">jodi</button>
         <div class="flex items-center flex-col ">
-        <p class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic">RADHE DAY</p>
-        <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl ">119-19-270</p>
-        <button class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">panel</button>
-        <p class="">(01:00 PM TO 02:00 PM)</p>
-        
-       </div>
-    </div>
+          <p class="italic  text-center w-full bg-[#5B0000] text-white text-2xl">❋ Update Your Result ❋
+ 
+          </p>
+            <div>
 
-    <div class="border-red-600 border-[3px]  relative">
-        
-        <button class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">jodi</button>
-        <div class="flex items-center flex-col ">
-        <p class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic">BORIVALI DAY </p>
-        <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl ">119-19-270</p>
-        <button class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">panel</button>
-        <p class="">(01:00 PM TO 02:00 PM)</p>
-        
-       </div>
-    </div>
+          <div>
+            <button
+              class="rounded-lg px-4 py-0 bg-[#f2d705] hover:bg-blue-600 duration-300 border-[2px] border-black mt-2 italic"
+            >
+              Login
+            </button>
 
-    <div class="border-red-600 border-[3px] bg-[#ffff00] relative">
-        
-        <button class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">jodi</button>
-        <div class="flex items-center flex-col ">
-        <p class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center italic">NEW JANTA DAY </p>
-        <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl ">119-19-270</p>
-        <button class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">panel</button>
-        <p class="">(01:00 PM TO 02:00 PM)</p>
-        
-       </div>
+            <button
+              class="rounded-lg px-4 py-0 bg-[#f2d705] hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 mb-3 italic"
+            >
+              Register
+            </button>
+          </div>
+        </div>
     </div>
-    
-    <div class="border-red-600 border-[3px]  relative">
-        
-        <button class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">jodi</button>
-        <div class="flex items-center flex-col ">
-        <p class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center">RADHE DAY</p>
-        <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl ">119-19-270</p>
-        <button class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">panel</button>
-        <p class="">(01:00 PM TO 02:00 PM)</p>
-        
-       </div>
-    </div>
-    
-    <div class="border-red-600 border-[3px]  relative">
-        
-        <button class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">jodi</button>
-        <div class="flex items-center flex-col ">
-        <p class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center">RADHE DAY</p>
-        <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl ">119-19-270</p>
-        <button class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">panel</button>
-        <p class="">(01:00 PM TO 02:00 PM)</p>
-        
-       </div>
-    </div>
+</div>
 
-    <div class="border-red-600 border-[3px]  relative">
+
+
+        <div class="mt-2 bg-blue-500  border-3">
+
+            <h1 class=" border-b-5 w-full text-center py-2 italic inline-block text-2xl">CNN Weekly Patti Or Penal Chart From 02-06-2025 To 08-06-2025 , For Kalyan, Milan day & night, Time day & night , main bazar, mahalaxmi, goa varly, borivali, radhe, Ujjain day & night</h1>
+
+            <div class="bg-gray-800  text-center text-white list-decimal italic ">
+
+
+               <li> 	128-236-155-678 </li>
+               <li>		237-480-129-228</li>
+               <li>		229-148-120-689</li>
+               <li>		149-455-266-789</li>
+               <li>  	456-113-122-889</li>
+               <li>		466-240-178-367</li>
+               <li>		340-188-458-160</li>
+               <li>	    369-170-800-288</li>
+               <li>		135-469-667-478</li>
+               <li>		136-479-299-118 </li>
         
-        <button class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">jodi</button>
-        <div class="flex items-center flex-col ">
-        <p class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center">RADHE DAY</p>
-        <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl ">119-19-270</p>
-        <button class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">panel</button>
-        <p class="">(01:00 PM TO 02:00 PM)</p>
+            </div>
+
+        </div>
+
+        <div class="mt-2 bg-blue-500  border-3">
+
+            <h1 class=" border-b-5 w-full text-center py-2 italic inline-block text-2xl ">CNN Weekly Line Open Or Close From 02-06-2025 To 08-06-2025 , For Kalyan, Milan day & night, Time day & night , main bazar, mahalaxmi, goa varly, borivali, radhe, Ujjain day & night</h1>
+
+            <div class="bg-gray-800  text-center text-white list-none  italic ">
+
+
+               <li>Mon=>5-1-2-0</li>
+               <li>Tue=>1-5-9-3</li>
+               <li>Wed=>2-1-3-8	</li>
+               <li>Thu=>1-5-9-8</li>
+               <li>Fri=>9-5-0-4</li>
+               <li>Sat=>4-1-7-8</li>
+               <li>Sun=>8-6-0-2 </li>
         
-       </div>
+            </div>
+
+        </div>
+
+
+        <div class="mt-2 bg-blue-500  border-3">
+
+            <h1 class=" border-b-5 w-full text-center py-2 italic inline-block text-2xl ">CNN Weekly Jodi.......Chart From 02-06-2025 To 08-06-2025 , For Kalyan, Milan day & night, Time day & night , main bazar, mahalaxmi, goa varly, borivali, radhe, Ujjain day & night</h1>
+
+            <div class="bg-gray-800  text-center text-white list-none italic ">
+
+
+               <li>   Mon	=>	22-40-96-82</li>
+               <li>	Tue	=>	90-61-12-38</li>
+               <li>	Wed	=>	56-12-36-19</li>
+               <li>	Thu	=>	90-72-35-23</li>
+               <li> Fri	=>	65-80-89-24</li>
+               <li>Sat	=>	49-72-60-68</li>
+               <li>	Sun	=>	83-16-29-94</li>
+               
+        
+            </div>
+
+        </div>
+
+
+
+
+<div class="border-2 border-black  mt-2">
+    <div class="bg-red-600 text-center text-yellow-100 text-3xl rounded-bl-2xl rounded-tr-2xl p-2 custom-shadow mb-3 italic ">
+        time table
     </div>
+<div class=" relative mt-5  border border-black">
+    <table class="w-full text-sm text-left rtl:text-right ">
+        <thead class="text-xs  uppercase  ">
+            <tr>
+                <th scope="col" class="  rounded-s-lg text-black text-center border-2 italic">
+                    market name
+                </th>
+                <th scope="col" class="px-6 border-2 text-center italic">
+                    Open
+                </th>
+                <th scope="col" class="px-6 py-2 border-2  text-center italic">
+                    close
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="bg-white text-black">
+                <th scope="row" class="px-6 font-medium  whitespace-nowrap  text-center border-2 italic">
+                    CNN BAZAR
+                </th>
+                <td class="px-6  border-2 text-center italic">
+                    09:00 AM
+                </td>
+                <td class="px-6  border-2 text-center italic">
+                    CNN
+                </td>
+            </tr>
+            <tr class="bg-white text-black">
+                <th scope="row" class=" text-center border-2 italic">
+                    CNN BAZAR
+                </th>
+                <td class=" text-center border-2 italic">
+                    10:00 AM
+                </td>
+                <td class=" text-center border-2 italic">
+                    CNN
+                </td>
+            </tr>
+            <tr class="bg-white dark:bg-gray-800">
+                <th scope="row" class=" whitespace-nowrap  text-center border-2 italic">
+                    CNN BAZAR
+                </th>
+                <td class="text-center border-2 italic">
+                   11:00 AM
+                </td>
+                <td class="text-center border-2 italic">
+                    CNN 
+                </td>
+            </tr>
+        </tbody>
 
-    <div class="border-red-600 border-[3px]  relative">
-        
-        <button class="absolute bottom-[0px] left-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">jodi</button>
-        <div class="flex items-center flex-col ">
-        <p class="text-[#b51717] text-2xl text-shadow-2xs text-shadow-[#8BC34A] text-center">RADHE DAY</p>
-        <p class="text-shadow-2xs text-shadow-[#8BC34A] text-center text-2xl ">119-19-270</p>
-        <button class="absolute bottom-[0px] right-4 rounded-lg px-4 py-0 bg-[#ff0000] text-blue-100 hover:bg-blue-600 duration-300 border-[2px] border-black mt-0 ">panel</button>
-        <p class="">(01:00 PM TO 02:00 PM)</p>
-        
-       </div>
-    </div>
+        <p>
+            <tr class="  border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">CNN BAZAR</th>
+                <td class="text-center border-r-2 italic">12:00 PM</td>
+                <td class="text-center border-r-2  italic">CNN</td>
+            </tr>
+        </p>
 
-    </Main>
-</body>
+        <p>
+            <tr class="  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">CNN BAZAR</th>
+                <td class="text-center border-r-2 italic">01:00 PM</td>
+                <td class="text-center border-r-2  italic">CNN</td>
+            </tr>
+        </p>
 
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">CNN BAZAR</th>
+                <td class="text-center border-r-2 italic">02:00 PM</td>
+                <td class="text-center border-r-2  italic">CNN</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">CNN BAZAR</th>
+                <td class="text-center border-r-2 italic">03:00 PM</td>
+                <td class="text-center border-r-2  italic">CNN</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">CNN BAZAR</th>
+                <td class="text-center border-r-2 italic">04:00 PM</td>
+                <td class="text-center border-r-2  italic">CNN</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">CNN BAZAR</th>
+                <td class="text-center border-r-2 italic">05:00 PM</td>
+                <td class="text-center border-r-2  italic">CNN</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">CNN BAZAR</th>
+                <td class="text-center border-r-2 italic">06:00 PM</td>
+                <td class="text-center border-r-2  italic">CNN</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">CNN BAZAR</th>
+                <td class="text-center border-r-2 italic">07:00 PM</td>
+                <td class="text-center border-r-2  italic">CNN</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">CNN BAZAR</th>
+                <td class="text-center border-r-2 italic">08:00 PM</td>
+                <td class="text-center border-r-2  italic">CNN</td>
+            </tr>
+        </p>
+
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">MILAN DAY</th>
+                <td class="text-center border-r-2 italic">03:25 PM</td>
+                <td class="text-center border-r-2  italic">05:25</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">KALYAN </th>
+                <td class="text-center border-r-2 italic">04:25 PM</td>
+                <td class="text-center border-r-2  italic">06:25 PM</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">MAIN BAZAR</th>
+                <td class="text-center border-r-2 italic">10:00 PM</td>
+                <td class="text-center border-r-2  italic">12:10 PM</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">BORIVALI DAY</th>
+                <td class="text-center border-r-2 italic">03:00 PM</td>
+                <td class="text-center border-r-2  italic">04:00</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic"> TIME BAZAR</th>
+                <td class="text-center border-r-2 italic">01:20 PM</td>
+                <td class="text-center border-r-2  italic">02:20 PM</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">MAIN MUMBAI DAY</th>
+                <td class="text-center border-r-2 italic">01:00 PM</td>
+                <td class="text-center border-r-2  italic">03:00</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">RADHE DAY</th>
+                <td class="text-center border-r-2 italic">02:00 PM</td>
+                <td class="text-center border-r-2  italic">04:00</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">GOA VARLI DAY</th>
+                <td class="text-center border-r-2 italic">01:00 PM</td>
+                <td class="text-center border-r-2  italic">02:00 PM</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">GOA VARLI NIGHT</th>
+                <td class="text-center border-r-2 italic">08:00 PM</td>
+                <td class="text-center border-r-2  italic">09:00 PM</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">MILAN NIGHT</th>
+                <td class="text-center border-r-2 italic">09:00 PM</td>
+                <td class="text-center border-r-2  italic">11:10</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">RADHE NIGHT</th>
+                <td class="text-center border-r-2 italic">08:30 PM</td>
+                <td class="text-center border-r-2  italic">10:15 PM</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">BORIVALI NIGHT</th>
+                <td class="text-center border-r-2 italic">09:40 PM</td>
+                <td class="text-center border-r-2  italic">12:10 PM</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">NEW JANTA DAY</th>
+                <td class="text-center border-r-2 italic">03:00 PM</td>
+                <td class="text-center border-r-2  italic">05:30 PM</td>
+            </tr>
+        </p>
+
+        <p>
+            <tr class=" border-2  ">
+                <th scope="row" class="  text-center border-r-2 border-l-2 italic">NEW JANTA NIGHT</th>
+                <td class="text-center border-r-2 italic">09:30 PM</td>
+                <td class="text-center border-r-2  italic">11:30 PM</td>
+            </tr>
+        </p>
+
+    </table>
+</div>
+</div>
+
+<div class=" bg-[#007979] ">
+    <h1 class=" text-center text-white text-2xl py-3 italic">CNN SATTAMATKA.COM</h1>
+</div>
+
+<div class="text-center mt-3 border-2 border-red-600 italic">
+
+    <p>DISCLAIMER:- Viewing This WebSite Is On Your Own Risk.. All The information Shown On Website Is Based on Numerology and Astrology for Information Purposes .. We</p>
+
+    <p>Are Not Associated with Any Illegal Matka Business or Gamblers..</p>
+
+    <p>CNN SATTAMATKA.COM ALL RIGHTS RESERVED (2012-2019) CONTACT ADMIN CNN Sattamatka.COM Is Also Known As Satta Matka Also A World Of Experts Guessing Forum Website And One Of The Most Visited Satta Site Amongst People Engaged In</p>
+</div>
+
+<div class="border-2 mt-3 border-red-600 text-center bg-[#14ebd9] italic">
+   <p>CALL</p>
+   <p>!!! ( ADMIN SIR ) !!!</p>
+   <p>90XXXXXXXX</p>
+</div>
+
+
+</main>
+  </body>
 </html>
